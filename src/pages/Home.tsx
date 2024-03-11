@@ -1,8 +1,11 @@
 import React from 'react'
+import SignUp from '../fetures/auth/SignUp'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <main>
+      <SignUp/>
+    </main>
   )
 }
 
